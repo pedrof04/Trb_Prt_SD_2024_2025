@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Clone Button</title>
+    <style>
+      .clone-button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .clone-button:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clone o repositório</h1>
+    <button class="clone-button" onclick="copyGitCommand()">
+      Copiar comando git clone
+    </button>
+
+    <script>
+      function copyGitCommand() {
+        const gitCommand =
+          "git clone https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git";
+        navigator.clipboard.writeText(gitCommand).then(
+          () => {
+            alert("Comando copiado para a área de transferência!");
+          },
+          () => {
+            alert("Falha ao copiar o comando.");
+          }
+        );
+      }
+    </script>
+  </body>
+</html>
