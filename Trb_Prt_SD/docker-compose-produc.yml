@@ -1,0 +1,36 @@
+version: "3"
+services:
+  api:
+    image: rubenr0drigues/trb_prt_sd:latest
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: senha_secreta
+      POSTGRES_DB: meu_projeto
+    networks:
+      - app-network
+    volumes:
+      - .:/app
+
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: senha_secreta
+      POSTGRES_DB: meu_projeto
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+networks:
+  app-network:
+
+volumes:
+  pgdata:
