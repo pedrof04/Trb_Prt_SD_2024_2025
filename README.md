@@ -86,6 +86,9 @@ Depois volte a testar as rotas da api que estão documentadas no arquivo API.md 
 
 ---
 
+## Tutorial em vídeo
+[![Assista ao vídeo](https://img.youtube.com/vi/zr7OwBJAYOc/0.jpg)](https://youtu.be/zr7OwBJAYOc)
+
 ## Estrutura do Repositório
 
 - API.md: Documentação detalhada das rotas da API.
