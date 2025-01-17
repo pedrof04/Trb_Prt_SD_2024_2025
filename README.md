@@ -44,7 +44,7 @@ Execute o comando abaixo para clonar o repositório do GitHub:
 git clone <https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git>
 
 Acesse o diretório do projeto:
-cd <cd Trb_Prt_SD_2024_2025>
+cd <Trb_Prt_SD_2024_2025>
 
 Abra o VS Code(opcional): 
 code .
