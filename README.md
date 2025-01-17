@@ -73,6 +73,18 @@ docker pull rubenr0drigues/trb_prt_sd
 
 ---
 
+## Executar a imagem de produção
+
+Acesse o diretório do projeto:
+cd Trb_Prt_SD_2024_2025
+
+Certifique-se de que o Docker está em execução e utilize este comando para executar a imagem de produção que está no docker hub:
+docker-compose -f docker-compose-produc.yml up
+
+Depois volte a testar as rotas da api que estão documentadas no arquivo API.md e use a coleção do Postman para facilitar o processo.
+
+---
+
 ## Estrutura do Repositório
 
 - API.md: Documentação detalhada das rotas da API.
