@@ -41,7 +41,44 @@ Para executar este sistema, você precisará dos seguintes itens instalados:
 ### Passo 1: Clonar o Repositório
 
 Execute o comando abaixo para clonar o repositório do GitHub:
-[![Clone](https://img.shields.io/badge/Clone%20Repositório-blue?style=for-the-badge)](https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git)
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiar Comando Git</title>
+    <style>
+        .clone-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .clone-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clone o Repositório</h1>
+    <button class="clone-button" onclick="copyGitCommand()">Copiar Comando</button>
+
+    <script>
+        function copyGitCommand() {
+            const gitCommand = 'git clone https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git';
+            navigator.clipboard.writeText(gitCommand).then(() => {
+                alert('Comando copiado para a área de transferência!');
+            }, () => {
+                alert('Falha ao copiar o comando.');
+            });
+        }
+    </script>
+</body>
+</html>
+
 
 
 Acesse o diretório do projeto:
