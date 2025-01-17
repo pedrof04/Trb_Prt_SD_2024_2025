@@ -41,7 +41,7 @@ Para executar este sistema, você precisará dos seguintes itens instalados:
 ### Passo 1: Clonar o Repositório
 
 Execute o comando abaixo para clonar o repositório do GitHub:
-[![Clone](https://img.shields.io/badge/Clone%20Repositório-blue?style=for-the-badge)](git clone https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git)
+[![Clone](https://img.shields.io/badge/Clone%20Repositório-blue?style=for-the-badge)](https://github.com/pedrof04/Trb_Prt_SD_2024_2025.git)
 
 
 Acesse o diretório do projeto:
