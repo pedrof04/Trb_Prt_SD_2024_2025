@@ -41,6 +41,8 @@ Para executar este sistema, você precisará dos seguintes itens instalados:
 ### Passo 1: Clonar o Repositório
 
 Execute o comando abaixo para clonar o repositório do GitHub:
+[Copiar Comando de Clone](clone-button.html)
+
 
 Acesse o diretório do projeto:
 cd Trb_Prt_SD_2024_2025
