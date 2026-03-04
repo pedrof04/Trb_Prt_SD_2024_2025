@@ -4,7 +4,7 @@ Este projeto é uma aplicação distribuída que implementa uma API RESTful util
 
 ---
 
-## Informações Acadêmicas
+## Informações Académicas
 
 - **Unidade Curricular**: Serviços Distribuídos
 - **Professor**: Wenderson Wanzeller
